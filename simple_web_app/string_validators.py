@@ -62,7 +62,7 @@ class EspecialCharacterValidator(Validator):
         if self.especial_set_valid.isdisjoint(content_set):
             msg = "Passwords must have at least 1 especial character!"
             raise EspecialCharacterException(detail=msg)
-        if not selt.especial_set_not_valid.isdisjoint(content_set):
+        if not self.especial_set_not_valid.isdisjoint(content_set):
             msg = "Passwords must not contain characters '^', '~' or '/'!"
             raise EspecialCharacterException(detail=msg)
 
