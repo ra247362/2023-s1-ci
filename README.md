@@ -1,4 +1,6 @@
 # Projeto das aulas de integração contínua em MC426
+## Fork não oficial
+
 
 ## Problema
 Esse repositório implementa uma API HTTP para validar o texto de uma senha 
